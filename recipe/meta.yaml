@@ -1,4 +1,4 @@
-{% set version = '1.0.0' %}
+{% set version = "1.0.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/gameofthrones_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/gameofthrones/gameofthrones_{{ version }}.tar.gz
-  sha256: d36800c5430ba81b7b4dfd45d882f89d65d1a5924e91eba3290bab93c2be4f96
+  sha256: 932b7410249594a29381c7bff156bf2ec8acb2f2883e3286a34d211da827da82
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -42,6 +42,7 @@ test:
 about:
   home: https://github.com/aljrico/gameofthrones
   license: MIT
+  license_file: LICENSE
   summary: Implementation of the characteristic palettes from the TV show 'Game of Thrones'.
   license_family: MIT
 
