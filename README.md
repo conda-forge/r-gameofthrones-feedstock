@@ -1,11 +1,11 @@
-About r-gameofthrones
-=====================
+About r-gameofthrones-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gameofthrones-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/aljrico/gameofthrones
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gameofthrones-feedstock/blob/main/LICENSE.txt)
 
 Summary: Implementation of the characteristic palettes from the TV show 'Game of Thrones'.
 
